@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+*{
+    margin: 0;
+}
+
+.topbar{
+    padding-left: 60%;
+    width: 40%;
+    height: 40Px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+}
+.topbar h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
+    font-weight: 100;
+    display: inline;
+}
+.firsttext{
+    padding : 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 120px;
+    height: 20px;
+}
+.firsttext:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#mainbar{
+    margin-top: .5px;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    display: flex;
+}
+#amdlogo{
+    width: 200px;
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 30px;
+   
+}
+.barbox{
+width: 90px;
+height: 30px;
+padding-top: 10px;
+font-size: small;
+margin-top: 30px;
+margin-left: 15px;
+text-align: center;
+color: aliceblue;
+
+font-family: 'Kanit', sans-serif;
+}
+.barbox:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#bard{
+    width: 190px;
+height: 30px;
+padding-top: 10px;
+font-size: small;
+margin-left: 15px;
+text-align: center;
+margin-top: 30px;
+color: aliceblue;
+font-family: 'Kanit', sans-serif;
+}
+#bard:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#icon{
+    margin: 40px 0 0 500px;
+}
+#img1{
+    margin-top: 4px;
+    width: 100%;
+    height: 350px;
+    
+background-image:url(https://www.amd.com/system/files/2022-04/1303168-radeon-black-red-swoosh-bg-1920x800.jpg);
+display: flex;
+}
+
+#text{
+    padding-top: 60px;
+    font-style: italic;
+    width: 600px;
+    height: 350px;
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+}
+#text h3{
+    font-size: medium;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+#text button{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 8px;
+    background-color: transparent;
+    color: aliceblue;
+    font-family: 'Kanit', sans-serif;
+    transition: .2s;
+}
+#text button:hover{
+    background-color: rgba(48, 55, 61, 0.932);
+    transition: .2s;
+}
+
+#img2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    
+    background-color: aliceblue;
+   
+}
+.stic1{
+    width: 30%;
+    height: 500px;
+    padding-top: 50px;
+margin-left: 30px;
+}
+.stic1 h1{
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+    color: black;
+    text-size-adjust: initial;
+    font-weight: 900;
+    font-size: larger;
+}
+.stic1 h3{
+    font-size: medium;
+    margin-top: 20px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    color: black;
+}
+.stic1 button{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 8px;
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    font-family: 'Kanit', sans-serif;
+    transition: .2s;
+}
+.stic1 button:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: .2s;
+}
+#cart {
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 300px;
+    display: flex;
+    height: 30px;
+    color: aliceblue;
+    background-color: rgb(240, 73, 73);
+    transition: .2s;
+}
+#cart:hover {
+    background-color: rgb(252, 82, 40);
+    transition: .2s;
+}
+#cart h4{
+    margin-left: 20px;
+}
+#img3{
+    width: 1349px;
+    height: 500px;
+    /* padding: 50px; */
+    
+    display: flex;
+    background-color: rgb(181, 184, 187);
+}
+#imgst1{
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 600px;
+}
+#imgst2{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 600px;
+
+}
+#imgst1 h1{
+    padding-top: 30px;
+    font-style: oblique;
+   font-size: larger;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(8, 8, 8);
+    text-size-adjust: inherit;
+}
+#imgst2 h1{
+    padding-top: 30px;
+    font-style: oblique;
+   font-size: larger;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(8, 8, 8);
+    text-size-adjust: inherit;
+}
+#imgst1 h3{
+    font-size: large;
+    margin-top: 20px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+#imgst2 h3{
+    font-size: large;
+    margin-top: 40px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+#imgst1 button{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    font-family: 'Kanit', sans-serif;
+    transition: .2s;
+}
+#imgst2 button{
+    width: 150px;
+    height: 40px;
+    margin-top: 83px;
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    font-family: 'Kanit', sans-serif;
+    transition: .2s;
+}
+
+#img3 button:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: .2s;
+}
+#img4{
+    width: 1349px;
+    height: 360px;
+    background-color: black;
+display: flex;
+    }
+#img4 img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+#img4 h1{
+    margin-top: 60px;
+    margin-left: 20px;
+    text-align: left;
+    font-style: italic;
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+}
+#img4 h3{
+margin-top: 20px;
+    margin-left: 20px;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+#img4 button{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-width: 2px;
+    font-family: 'Kanit', sans-serif;
+    transition: .2s;
+}
+#img4 button:hover{
+    background-color: rgb(114, 123, 131);
+    color: black;
+    transition: .2s;
+}
+#img5{
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+}
+#img5 h1{
+    margin-top: 60px;
+    margin-left: 20px;
+    text-align: left;
+    font-style: italic;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(7, 7, 7);
+}
+#img5 h2{
+    margin-left: 20px;
+    text-align: left;
+    font: size 100px;;
+    font-weight: 100;
+    font-family: 'Kanit', sans-serif;
+    font-style: oblique;
+    color: rgb(7, 7, 7);
+}
+#img5 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    margin-left: 20px;
+    text-align: left;
+    font: size 100px;;
+    font-weight: 100;
+}
+#img5 button{
+    padding: 10px 20px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: rgb(8, 8, 8);
+    border-color: rgb(7, 7, 7);
+    border-width: 2px;
+    font-family: 'Kanit', sans-serif;
+    transition: .2s;
+}
+
+#img5 button:hover{
+    background-color: rgb(5, 5, 5);
+    color: aliceblue;
+    transition: .2s;
+}
+#img5 img{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+#img6{
+    width: 100%;
+    height: 450px;
+    background-image: url(https://www.amd.com/system/files/10286-xfxrx550-background-1920x600.jpg);
+    padding: 50px;
+    display: flex;
+}
+.imgst3{
+    width: 400px;
+height: 400px;
+    margin: 10px;
+}
+.imgst3 h1{
+    margin-top: 20px;
+    text-align: left;
+    font-style: italic;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(253, 251, 251);
+}
+.imgst3 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    color: aliceblue;
+    text-align: left;
+    font: size 100px;;
+    font-weight: 100;
+}
+.imgst3 button{
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: transparent;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-width: 2px;
+    font-family: 'Kanit', sans-serif;
+    transition: .2s;
+}
+.imgst3 button:hover{
+    background-color: rgba(190, 199, 206, 0.075);
+    color: aliceblue;
+    border-color: black;
+    transition: .2s;
+}
+#img7{
+    width: 100%;
+    height: 55px;
+    padding-top: 45px;
+    padding-left: 50px;
+    color: black;
+    background-color: aliceblue;
+}
+#img8{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+}
+#img9{
+    margin-left: 10%;
+    width: 80%;
+    height: 60px;
+    border-bottom: 2px solid rgb(141, 137, 137) ;
+display: flex;
+}
+.img91{
+    margin: 30px 0 0 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    color: aliceblue;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+}
+#img92{
+    padding-top: 50px;
+    margin-left: 10%;
+    width: 80%;
+    height: 150px;
+    color: aliceblue;
+    border-bottom: 2px solid rgb(146, 140, 140);
+}
+#img93{
+    width: 100%;
+    height: 150px;
+    /* background-color: aqua; */
+    display: flex;
+}
+#img94{
+    width: 700px;
+    margin-top: 10px;
+    height: 80px;
+    color: rgb(235, 230, 230);
+    background-color: rgba(125, 117, 155, 0.13);
+    padding: 30px 0 0 15px;
+}
+#img94 button{
+width: 300px;
+height: 40px;
+background-color: transparent;
+border: 2px solid rgb(255, 255, 255);
+}
+#img95{
+    margin: 90px 0 0 150px;
+
+}
+#last{
+    font-size: small;
+}
+#img1:hover{
+    background-image: rgba(146, 18, 18, 0.062);z-index: 200;
+}
